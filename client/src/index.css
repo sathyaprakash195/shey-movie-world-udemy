@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: normal;
+}
+
+button {
+  box-shadow: none !important;
+  height: 45px !important;
+  border-radius: 2px !important;
+}
+
+input,
+select , textarea{
+  height: 40px !important;
+  width: 100% !important;
+  border: 1px solid #6d6d6d !important;
+  padding-left: 20px;
+  border-radius: 2px !important;
+}
+
+input:focus,
+select:focus , textarea:focus{
+  outline: none !important;
+  border: 1px solid #303030 !important;
+  box-shadow: none !important;
+}
+
+textarea{
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  min-height: 100px !important;
+}
+
+.ant-form-item {
+  margin-bottom: 0px !important;
+}
+
+a {
+  color: #303030;
+  text-decoration: underline !important;
+}
+
+a:hover {
+  color: #303030;
+}
+
+i {
+  font-size: 20px !important;
+  cursor: pointer;
+}
+
+.ant-form-item-label{
+    padding: 0px !important;
+}
+
+table {
+   border: 1px solid #c0c0c0 !important;
+}
+
+.ant-select-selector{
+  border: 1px solid #6d6d6d !important;
+  border-radius: 2px !important;
+  height: 40px !important;
+}
+
+.ant-select-selector:hover{
+  border: 1px solid #303030 !important;
+  box-shadow: none !important;
+  height: 40px !important;
+}
+
+.ant-select-selector input{
+  height: 40px !important;
+  border: none !important;
+}
+
+.ant-switch {
+  height: 22px !important;
+  border-radius: 10px !important;
+}
+
+
+
+/* Quick search & Filters */
+.quick-search-results {
+    height: 500px;
+    overflow-y: auto;
+    width: 100%;
+    border: 1px solid #c0c0c0;
+    background-color: white;
+    position: absolute;
+    z-index: 10000;
+    top: 42px;
+    box-shadow: 1px 1px 2px #c0c0c0;
+}
